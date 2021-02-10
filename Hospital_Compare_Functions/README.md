@@ -76,64 +76,64 @@ Attack: varchar (50) Lists the mortality and readmission category in which the h
 The functions contained in Hospital_Compare_Functions.R perform the following: 
 
 1. make_hospital_table() 
-# Pre-conditions: None 
+  -Pre-conditions: None 
 
-# Post-conditions: Function returns a tibble ("hospital_table") containing data 
-# regarding hospital 30 day death rates for heart attack, heart failure,
-# and pneumonia.
-# Each row contains a state, a hospital within that state, a cause of death, 
-# the hospital's 30 day death rate for the cause of death, how the hospital's 
-# death rate ranks to other hospitals in the same state (where it ranks on  
-# the list of lowest and the list of highest hospital death rates), and the 
-# total number of hospitals it is being compared to in the state. 
-The fields of a hospital_table are as follows: 
-1. State: character - lists state of hospital
-2. Hospital: character - lists hospital name
-3. Cause_Of_Death: character - lists the type of death rate. The values are: Heart_Attack_Death_Rate, Heart_Failure_Death_Rate, and Pneumonia_Death_Rate
-4. Death_Rates_30_Day: numeric - lists the risk adjusted rate (percentage) for each hospital
-5. State_Rank_Best : integer - lists how each hospital ranks in its state in terms of best outcome for a given 30_day_death_rate
-6. State_Rank_Worst : integer - lists how each hospital ranks in its state in terms of worst outcome for a given 30_day_death_rate
-7. Out_Of : integer - lists how many hospitals each hospital is being compared to for State_Rank_Best and State_Rank_Worst 
+  -Post-conditions: Function returns a tibble ("hospital_table") containing data 
+   regarding hospital 30 day death rates for heart attack, heart failure,
+   and pneumonia.
+   Each row contains a state, a hospital within that state, a cause of death, 
+   the hospital's 30 day death rate for the cause of death, how the hospital's 
+   death rate ranks to other hospitals in the same state (where it ranks on  
+   the list of lowest and the list of highest hospital death rates), and the 
+   total number of hospitals it is being compared to in the state. 
+
+  The fields of a hospital_table are as follows: 
+  1. State: character - lists state of hospital
+  2. Hospital: character - lists hospital name
+  3. Cause_Of_Death: character - lists the type of death rate. The values are: Heart_Attack_Death_Rate, Heart_Failure_Death_Rate, and Pneumonia_Death_Rate
+  4. Death_Rates_30_Day: numeric - lists the risk adjusted rate (percentage) for each hospital
+  5. State_Rank_Best : integer - lists how each hospital ranks in its state in terms of best outcome for a given 30_day_death_rate
+  6. State_Rank_Worst : integer - lists how each hospital ranks in its state in terms of worst outcome for a given 30_day_death_rate
+  7. Out_Of : integer - lists how many hospitals each hospital is being compared to for State_Rank_Best and State_Rank_Worst 
 
 2. view_hospital_table(hospital_table) 
-# Pre-conditions: Function takes in tibble created by make_hospital_table
+ -Pre-conditions: Function takes in tibble created by make_hospital_table
 
-# Post-conditions: Function returns a view of hospital_table 
+ -Post-conditions: Function returns a view of hospital_table 
 
 3. best(hospital_table, state, outcome) 
-# Pre-conditions: The 'hospital_table' argument must be a tibble created by 
-# make_hospital_table(). The 'state' argument must be a string containing the
-# abbreviation of a state (i.e. 'FL' or 'TX'). The 'outcome' argument must be 
-# one of three strings specifying a disease outcome: 'heart failure', 
-# 'heart attack', or 'pneumonia'.
+  -Pre-conditions: The 'hospital_table' argument must be a tibble created by 
+   make_hospital_table(). The 'state' argument must be a string containing the
+   abbreviation of a state (i.e. 'FL' or 'TX'). The 'outcome' argument must be 
+   one of three strings specifying a disease outcome: 'heart failure','heart attack', or 'pneumonia'.
 
-# Post-conditions: Function returns string specifying the name of the hospital 
-# with the best disease outcome (the lowest 30 day mortality rate) for the 
-# state and outcome inputted into the function. 
+ -Post-conditions: Function returns string specifying the name of the hospital 
+  with the best disease outcome (the lowest 30 day mortality rate) for the 
+  state and outcome inputted into the function. 
 
 4. rankhospital(hospital_table, state, outcome, num = 'best') 
-# Pre-conditions: The 'state' argument must be a string containing the 
-# abbreviation of a state (i.e. 'FL' or 'TX'). The 'outcome' argument must be 
-# one of three strings specifying a disease outcome: 'heart failure', 
-# 'heart attack', or 'pneumonia'. The 'num' argument must be an integer or 
-# the strings 'best' or 'worst'. 
+  -Pre-conditions: The 'state' argument must be a string containing the 
+    abbreviation of a state (i.e. 'FL' or 'TX'). The 'outcome' argument must be 
+    one of three strings specifying a disease outcome: 'heart failure', 
+   'heart attack', or 'pneumonia'. The 'num' argument must be an integer or 
+   the strings 'best' or 'worst'. 
 
-# Post-conditions: Function returns string specifying the name of the hospital 
-# with the best disease outcome (the lowest 30 day mortality rate) for the 
-# state and outcome inputted into the function. If 'num' is greater than
-# the number of hospitals in the specified state, function returns NA. 
+  -Post-conditions: Function returns string specifying the name of the hospital 
+   with the best disease outcome (the lowest 30 day mortality rate) for the 
+   state and outcome inputted into the function. If 'num' is greater than
+   the number of hospitals in the specified state, function returns NA. 
 
 5. rankall(hospital_table, outcome, num = 'best') 
-# Pre-conditions: The 'hospital_table' argument must be a tibble created by 
-# make_hospital_table(). The 'outcome' argument must be 
-# one of three strings specifying a disease outcome: 'heart failure', 
-# 'heart attack', or 'pneumonia'. The 'num' argument must be an integer or 
-# the strings 'best' or 'worst'. 
+  -Pre-conditions: The 'hospital_table' argument must be a tibble created by 
+   make_hospital_table(). The 'outcome' argument must be 
+   one of three strings specifying a disease outcome: 'heart failure','heart attack', or 'pneumonia'. 
+   The 'num' argument must be an integer or 
+   the strings 'best' or 'worst'. 
 
-# Post-conditions: Function returns a table specifying the hospitals that 
-# are ranked 'num' for each 'outcome' in their respective state. If 
-# 'outcome' = 'best', table specifies hospitals ranked number 1.
-# If 'outcome' = 'worst', table specifies hospitals with lowest rank. 
+  -Post-conditions: Function returns a table specifying the hospitals that 
+   are ranked 'num' for each 'outcome' in their respective state. If 
+   'outcome' = 'best', table specifies hospitals ranked number 1.
+   If 'outcome' = 'worst', table specifies hospitals with lowest rank. 
 
 
 
