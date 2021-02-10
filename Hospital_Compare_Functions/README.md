@@ -1,6 +1,6 @@
 Repository contains functions that work on "outcome-of-care-measures.csv" file containing data from the Centers for Medicare & Medicaid Services web site (https://data.cms.gov/provider-data/?redirect=true) run by the U.S. Department of Health and Human Services. The .csv file is comprised of a table of over 4,000 Medicare certified hospitals in the USA. Data for each hospital such as the 30-day mortality rate for heart attack, heart failure, and stroke is recorded. I could not find the dates of the measurements in the file but it was posted in 2012, so it is safe to assume that the data was measured around that time. 
 
-The table contains the following 47 fields: 
+The table contains the following 46 fields: 
 1. Provider Number: varchar (6) Lists the hospitals by their provider identification number.
 2. Hospital Name: varchar (50) Lists the name of the hospital.
 3. Address 1: varchar (50) Lists the first line of the street address of the hospital.
@@ -17,7 +17,7 @@ Attack: varchar (50) Lists the mortality and readmission category in which the h
   • Better than U.S. National Average
   • No Different than U.S. National Average
   • Worse than U.S. National Average
-  • Number of Cases too Small*
+  • Number of Cases too Small
 13. Lower Mortality Estimate - Hospital 30-Day Death (Mortality) Rates from Heart Attack: Lists the lower bound (Interval Estimate) for each hospital’s risk-adjusted rate.
 14. Upper Mortality Estimate - Hospital 30-Day Death (Mortality) Rates from Heart Attack: Lists the upper bound (Interval Estimate) for each hospital’s risk-adjusted rate.
 15. Number of Patients - Hospital 30-Day Death (Mortality) Rates from Heart Attack: varchar (5) Lists the number of Medicare patients treated for Heart Attack by the Hospital.
@@ -27,7 +27,7 @@ Attack: varchar (50) Lists the mortality and readmission category in which the h
   a. Better than U.S. National Average
   b. No Different than U.S. National Average 
   c. Worse than U.S. National Average
-  d. Number of Cases too Small*
+  d. Number of Cases too Small
 19. Lower Mortality Estimate - Hospital 30-Day Death (Mortality) Rates from Heart Failure: Lists the lower bound (Interval Estimate) for each hospital’s risk-adjusted rate.
 20. Upper Mortality Estimate - Hospital 30-Day Death (Mortality) Rates from Heart Failure: Lists the upper bound (Interval Estimate) for each hospital’s risk-adjusted rate.
 21. Number of Patients - Hospital 30-Day Death (Mortality) Rates from Heart Failure: varchar (5) Lists the number of Medicare patients treated for Heart Failure by the Hospital.
@@ -37,7 +37,7 @@ Attack: varchar (50) Lists the mortality and readmission category in which the h
   • Better than U.S. National Average
   • No Different than U.S. National Average
   • Worse than U.S. National Average
-  • Number of Cases too Small*
+  • Number of Cases too Small
 25. Lower Mortality Estimate - Hospital 30-Day Death (Mortality) Rates from Pneumonia: Lists the lower bound (Interval Estimate) for each hospital’s risk-adjusted rate.
 26. Upper Mortality Estimate - Hospital 30-Day Death (Mortality) Rates from Pneumonia: Lists the upper bound (Interval Estimate) for each hospital’s risk-adjusted rate.
 27. Number of Patients - Hospital 30-Day Death (Mortality) Rates from Pneumonia: varchar (5) Lists the number of Medicare patients treated for Pneumonia by the Hospital.
@@ -47,7 +47,7 @@ Attack: varchar (50) Lists the mortality and readmission category in which the h
   • Better than U.S. National Average
   • No Different than U.S. National Average
   • Worse than U.S. National Average
-  • Number of Cases too Small*
+  • Number of Cases too Small
 32. Lower Readmission Estimate - Hospital 30-Day Readmission Rates from Heart Attack: Lists the lower bound (Interval Estimate) for each hospital’s risk-adjusted rate.
 33. Upper Readmission Estimate - Hospital 30-Day Readmission Rates from Heart Attack: Lists the upper bound (Interval Estimate) for each hospital’s risk-adjusted rate.
 34. Number of Patients - Hospital 30-Day Readmission Rates from Heart Attack: varchar (5) Lists the number of Medicare patients treated for Heart Attack.
@@ -57,7 +57,7 @@ Attack: varchar (50) Lists the mortality and readmission category in which the h
   • Better than U.S. National Average
   • No Different than U.S. National Average
   • Worse than U.S. National Average
-  • Number of Cases too Small*
+  • Number of Cases too Small
 38. Lower Readmission Estimate - Hospital 30-Day Readmission Rates from Heart Failure: Lists the lower bound (Interval Estimate) for each hospital’s risk-adjusted rate.
 39. Upper Readmission Estimate - Hospital 30-Day Readmission Rates from Heart Failure: Lists the upper bound (Interval Estimate) for each hospital’s risk-adjusted rate.
 40. Number of Patients - Hospital 30-Day Readmission Rates from Heart Failure: varchar (5) Lists the number of Medicare patients treated for Heart Failure.
@@ -67,7 +67,7 @@ Attack: varchar (50) Lists the mortality and readmission category in which the h
   • Better than U.S. National Average
   • No Different than U.S. National Average
   • Worse than U.S. National Average
-  • Number of Cases too Small*
+  • Number of Cases too Small
 44. Lower Readmission Estimate - Hospital 30-Day Readmission Rates from Pneumonia: Lists the lower bound (Interval Estimate) for each hospital’s risk-adjusted rate.
 45. Upper Readmission Estimate - Hospital 30-Day Readmission Rates from Pneumonia: Lists the upper bound (Interval Estimate) for each hospital’s risk-adjusted rate.
 46. Number of Patients - Hospital 30-Day Readmission Rates from Pneumonia: varchar (5) Lists the number of Medicare patients treated for Pneumonia.
