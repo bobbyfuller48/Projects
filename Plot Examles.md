@@ -1,5 +1,5 @@
 t <- make_hospital_table()
-explore_state(t, 'FL', download = TRUE)
+\nexplore_state(t, 'FL', download = TRUE)
 
 
 ![image](https://user-images.githubusercontent.com/38505196/107897983-8fec9480-6f08-11eb-8cb3-c34208c48f15.png)
