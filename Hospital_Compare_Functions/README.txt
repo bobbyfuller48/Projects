@@ -130,11 +130,13 @@ The functions contained in Hospital_Compare_Functions.R perform the following:
   -Pre-conditions: The 'hospital_table' argument must be a tibble created by make_hospital_table(). The 'state' argument must be a string containing the 
    abbreviation of a state (i.e. 'FL' or 'TX'). The 'download' argument must be a logical value.
 
-  -Post-conditions: Function creates a page containing two graphs, and prints the page to the user's screen device. The function can also write graphs to
+  -Post-conditions*: Function creates a page containing two graphs, and prints the page to the user's screen device. The function can also write graphs to
    a png file if 'download' parameter is assigned TRUE. The page printed (or downloaded) contains a scatter plot describing the relationship between
    each hospital's pneumonia and heart attack death rates in the selected state. 
    The page also contains a bar graph displaying the average number of deaths for a hospital in the specified state by outcome (heart attack, heart failure, and pneumonia). 
-
+   
+   * see 'Plot Examples.md' in this repository for examples of explore_state()
+    
 
 
 
