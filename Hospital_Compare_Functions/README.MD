@@ -1,9 +1,9 @@
-Repository contains functions that work on "outcome-of-care-measures.csv" file containing data from the Centers for Medicare & Medicaid Services web site (https://data.cms.gov/provider-data/?redirect=true) run by the U.S. Department of Health and Human Services. 
+Repository contains functions that work on "outcome-of-care-measures.csv" file containing [data](https://data.cms.gov/provider-data/?redirect=true) from the Centers for Medicare & Medicaid Services web site run by the U.S. Department of Health and Human Services. 
 The .csv file is comprised of a table of over 4,000 Medicare certified hospitals in the USA. Data for each hospital such as 
 the 30-day mortality rate for heart attack, heart failure, and stroke is recorded. 
 I could not find the dates of the measurements in the file but it was posted in 2012, so it is safe to assume that the data was measured around that time. 
 
-The table contains the following 47 fields: 
+The table contains the following 46 fields: 
 1. Provider Number: varchar (6) Lists the hospitals by their provider identification number.
 2. Hospital Name: varchar (50) Lists the name of the hospital.
 3. Address 1: varchar (50) Lists the first line of the street address of the hospital.
