@@ -104,5 +104,5 @@ newCombinedTable <- combinedTable %>%
 
 # write ^ data frame as a .txt file into working directory 
 if (!file.exists('tidyDataFrame'))
-  write_delim(newCombinedTable, 'tidyDataFrame.txt')
+  write_csv(newCombinedTable, 'tidyDataFrame.csv')
   
