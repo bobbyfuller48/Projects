@@ -1,4 +1,5 @@
-##Hospital_Compare_Functions
+# Hospital_Compare_Functions 
+## Hospital_Compare_Functions
 
 Repository contains functions that work on "outcome-of-care-measures.csv" file containing [data](https://data.cms.gov/provider-data/?redirect=true) from the Centers for Medicare & Medicaid Services web site run by the U.S. Department of Health and Human Services. 
 The .csv file is comprised of a table of over 4,000 Medicare certified hospitals in the USA. Data for each hospital such as 
