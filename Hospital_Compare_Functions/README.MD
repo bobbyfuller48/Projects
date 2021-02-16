@@ -86,9 +86,8 @@ The functions contained in Hospital_Compare_Functions.R perform the following:
    regarding hospital 30 day death rates for heart attack, heart failure, and pneumonia.
    Each row contains a state, a hospital within that state, a cause of death, the hospital's 30 day death rate for the cause of death, how the hospital's death rate 
    ranks to other hospitals in the same state (where it ranks on the list of lowest and the list of highest hospital death rates), 
-   and the total number of hospitals it is being compared to in the state. 
-
-  The fields of a hospital_table are as follows: 
+   and the total number of hospitals it is being compared to in the state.   
+   The fields of a hospital_table are as follows: 
   1. State: character - lists state of hospital
   2. Hospital: character - lists hospital name
   3. Cause_Of_Death: character - lists the type of death rate. The values are: Heart_Attack_Death_Rate, Heart_Failure_Death_Rate, and Pneumonia_Death_Rate
