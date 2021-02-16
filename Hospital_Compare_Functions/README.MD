@@ -88,13 +88,13 @@ The functions contained in Hospital_Compare_Functions.R perform the following:
    ranks to other hospitals in the same state (where it ranks on the list of lowest and the list of highest hospital death rates), 
    and the total number of hospitals it is being compared to in the state.   
    The fields of a hospital_table are as follows: 
-  1. State: character - lists state of hospital
-  2. Hospital: character - lists hospital name
-  3. Cause_Of_Death: character - lists the type of death rate. The values are: Heart_Attack_Death_Rate, Heart_Failure_Death_Rate, and Pneumonia_Death_Rate
-  4. Death_Rates_30_Day: numeric - lists the risk adjusted rate (percentage) for each hospital
-  5. State_Rank_Best : integer - lists how each hospital ranks in its state in terms of best outcome for a given 30_day_death_rate
-  6. State_Rank_Worst : integer - lists how each hospital ranks in its state in terms of worst outcome for a given 30_day_death_rate
-  7. Out_Of : integer - lists how many hospitals each hospital is being compared to for State_Rank_Best and State_Rank_Worst 
+  * State: character - lists state of hospital
+  * Hospital: character - lists hospital name
+  * Cause_Of_Death: character - lists the type of death rate. The values are: Heart_Attack_Death_Rate, Heart_Failure_Death_Rate, and Pneumonia_Death_Rate
+  * Death_Rates_30_Day: numeric - lists the risk adjusted rate (percentage) for each hospital
+  * State_Rank_Best : integer - lists how each hospital ranks in its state in terms of best outcome for a given 30_day_death_rate
+  * State_Rank_Worst : integer - lists how each hospital ranks in its state in terms of worst outcome for a given 30_day_death_rate
+  * Out_Of : integer - lists how many hospitals each hospital is being compared to for State_Rank_Best and State_Rank_Worst 
 
 2. view_hospital_table(hospital_table)   
   -Pre-conditions: Function takes in tibble created by make_hospital_table    
