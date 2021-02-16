@@ -45,13 +45,13 @@ explore\_state(hospital\_table, state, download = FALSE)
 explore_state(hospitals, 'FL') 
 ```
 
-<img src="Function-Examples_files/figure-markdown_github/unnamed-chunk-2-1.png" style="display: block; margin: auto;" />
+![image](https://user-images.githubusercontent.com/38505196/108110355-216f1a00-7061-11eb-9766-54750afc569c.png)
 
 ``` r
 explore_state(hospitals, 'GA')  
 ```
 
-<img src="Function-Examples_files/figure-markdown_github/unnamed-chunk-2-2.png" style="display: block; margin: auto;" />
+![image](https://user-images.githubusercontent.com/38505196/108110364-259b3780-7061-11eb-8508-dfcdb76b7ee8.png)
 
 best(hospital\_table, state, outcome)
 -------------------------------------
