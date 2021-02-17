@@ -19,7 +19,8 @@ The code reads data from these files, cleans them, and combines them into a sing
 * using regular expressions to change activity labels from this format 'WALKING_UPSTAIRS', to this format 'walkingUpstairs' 
 * using regular expressions to select only features that measure a mean or standard deviation 
 * removing characters such as '(', ')', and '-' from column names 
-* making column names more descriptive - i.e. changing 'gyro' to 'gyroscope'  
+* making column names more descriptive - i.e. changing 'gyro' to 'gyroscope' 
+* combining all the data into a single data frame using column and row binding functions  
 
 From the newly combined/cleaned table, an additional table is created containing the average of each variable for each activity and each subject. The code writes this table to a .csv file in the users working directory. This table is found in this repository as 'tidyDataFrame.csv'.  
 
