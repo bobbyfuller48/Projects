@@ -28,7 +28,7 @@ Below are the questions that each .R file answers along with the graph that was 
 ### plot3.R
 ![plot3](https://user-images.githubusercontent.com/38505196/108253446-cbb17500-7127-11eb-9cfe-3cf9967135a5.png)
 
-## In the USA, PM2.5 emissions have decreased from 1999 to 2008. 
+## In the USA, PM2.5 emissions from coal combustion have decreased from 1999 to 2008. 
 ### plot4.R
 ![plot4](https://user-images.githubusercontent.com/38505196/108253451-cd7b3880-7127-11eb-90fe-4e404afa0c39.png)
 
@@ -36,6 +36,6 @@ Below are the questions that each .R file answers along with the graph that was 
 ### plot5.R
 ![plot5](https://user-images.githubusercontent.com/38505196/108253461-d0762900-7127-11eb-85d8-40cedd7ff162.png)
 
-## Baltimore PM2.5 emissions from motor vehicles have decreased from 1999 to 2008, but PM2.5 emissions from motor vehicles in LA has gone up during the same time period.
+## PM2.5 emissions from motor vehicles in Baltimore have decreased from 1999 to 2008, but PM2.5 emissions from motor vehicles in LA has gone up during the same time period.
 ### plot5.R
 ![plot6](https://user-images.githubusercontent.com/38505196/108253467-d2d88300-7127-11eb-8a31-52148ffc4c51.png)
