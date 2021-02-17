@@ -14,7 +14,7 @@ The other .rds file ('summarySCC_PM25.rds') contains information such as:
 * EI.Sector: The source of the emission (i.e. motor vehicle or coal combustion) 
 
 In several of the .R files, the two different dataframes are combined into one table. 
-Below are the observations that each .R file reveals along with the graph demonstrating the observation:
+Below are the observations that each .R file reveals along with the graph visualizing the observation:
 
 ## Total emissions from PM2.5 decreased in the United States from 1999 to 2008. 
 ### plot1.R 
