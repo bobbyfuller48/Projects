@@ -20,7 +20,7 @@ Below are the observations that each .R file reveals along with the graph demons
 ### plot1.R 
 ![plot1](https://user-images.githubusercontent.com/38505196/108253426-c3f1d080-7127-11eb-8e8e-ef6e8d278954.png)
 
-## Total emissions from PM2.5 decreased in the Baltimore City from 1999 to 2008.
+## Total emissions from PM2.5 decreased in Baltimore from 1999 to 2008.
 ### plot2.R
 ![plot2](https://user-images.githubusercontent.com/38505196/108253432-c6542a80-7127-11eb-9d5b-ec746528ba16.png)
 
