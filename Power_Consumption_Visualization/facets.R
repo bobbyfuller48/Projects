@@ -63,7 +63,7 @@ plot(table$date_time, table$global_reactive_power, type = 'l',
 
 # add title to facet
 mtext("Power Usage (2007-02-01 to 2007-02-02)", side = 3, outer = TRUE, 
-      cex = 0.9, font = 2)
+      cex = 1, font = 2)
 
 # write plot to a PNG file 
 dev.copy(png, file = 'facets.png', width = 500, height = 400) 
