@@ -24,7 +24,7 @@ Below are the observations that each .R file reveals along with the graph demons
 ### plot2.R
 ![plot2](https://user-images.githubusercontent.com/38505196/108253432-c6542a80-7127-11eb-9d5b-ec746528ba16.png)
 
-## In Baltimore, non-road, non-point, and on-road emissions decreased from 1999 to 2008 but point emissions increased.
+## In Baltimore, non-road, non-point, and on-road emissions decreased from 1999 to 2008, but point emissions increased.
 ### plot3.R
 ![plot3](https://user-images.githubusercontent.com/38505196/108253446-cbb17500-7127-11eb-9cfe-3cf9967135a5.png)
 
