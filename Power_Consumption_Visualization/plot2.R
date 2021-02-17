@@ -39,7 +39,7 @@ par(mfrow = c(1,1))
 plot(table$date_time, table$global_active_power, type = 'l', 
     xlab = '', ylab = 'Global Active Power (kilowatts)', 
     main = 'Global Active Power Usage (2007-02-01 to 2007-02-02)', 
-    cex.lab = 0.7, cex.main = 0.9) 
+    cex.lab = 0.8, cex.main = 1) 
 
 # write plot to a PNG file 
 dev.copy(png, file = 'ts1.png') 

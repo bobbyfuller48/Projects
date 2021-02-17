@@ -34,9 +34,9 @@ names(table) <- tolower(names(table))
 par(mfrow = c(1,1))
 
 hist(table$global_active_power, col = 'red', 
-     main = 'Global Active Power Usage (2007-02-01 to 2007-02-02)', cex.main = 0.9, 
-     xlab = 'Global Active Power (kilowatts)', cex.axis = 0.7, 
-     cex.lab = 0.7) 
+     main = 'Global Active Power Usage (2007-02-01 to 2007-02-02)', cex.main = 1, 
+     xlab = 'Global Active Power (kilowatts)', cex.axis = 0.8, 
+     cex.lab = 0.8) 
 
 # write plot to a PNG file 
 dev.copy(png, file = 'bar.png') 

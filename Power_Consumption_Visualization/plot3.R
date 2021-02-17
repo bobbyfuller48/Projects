@@ -36,9 +36,9 @@ names(table) <- tolower(names(table))
 # create/annotate graph
 par(mfrow = c(1,1))
 plot(table$date_time, table$sub_metering_1, type = 'l',
-     xlab = '', ylab = 'Energy sub metering (Wh)', cex.lab = 0.7, 
+     xlab = '', ylab = 'Energy Sub Metering (Wh)', cex.lab = 0.8, 
      cex.axis = 0.8, main = 'Energy Sub Metering Usage (2007-02-01 to 2007-02-02)', 
-     cex.main = 0.9)
+     cex.main = 1)
 lines(table$date_time, table$sub_metering_2, col = 'red')
 lines(table$date_time, table$sub_metering_3, col = 'blue')
 legend("topright",col=c("black","red","blue") ,
