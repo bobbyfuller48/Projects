@@ -27,7 +27,7 @@ ggplot(baltimore_motor_table, aes(x = factor(year), y = total_emissions,
                                   fill = factor(total_emissions))) + 
   geom_bar(stat = 'identity', show.legend = FALSE) + 
   scale_fill_grey(start = 0.75, end = 0.25) +
-  labs(title = 'Motor Vehicle PM2.5 Emissions',x = 'Year', 
+  labs(title = 'Motor Vehicle PM2.5 Emissions in Baltimore',x = 'Year', 
        y = 'Emissions (Tons)') 
 
 # write plot to a PNG file
