@@ -37,5 +37,5 @@ Below are the observations that each .R file reveals along with the graph visual
 ![plot5](https://user-images.githubusercontent.com/38505196/108258431-fe5e6c00-712d-11eb-8bed-751a11f61d02.png)
 
 ## PM2.5 emissions from motor vehicles in Baltimore have decreased from 1999 to 2008, but PM2.5 emissions from motor vehicles in LA have gone up during the same time period.
-### plot5.R
+### plot6.R
 ![plot6](https://user-images.githubusercontent.com/38505196/108253467-d2d88300-7127-11eb-8a31-52148ffc4c51.png)
