@@ -34,7 +34,6 @@ table <- table %>%
 names(table) <- tolower(names(table))
 
 # create/annotate graphs
-
 # specify global graphics parameters 
 par(mfrow = c(2,2), mar = c(3,4,2,2), oma = c(0, 0, 2, 0)) 
 
