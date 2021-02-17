@@ -10,12 +10,16 @@ Repository contains .R files that download, read, clean, and explore data from t
 8. Sub_metering_2: energy sub-metering No. 2 (in watt-hour of active energy). It corresponds to the laundry room, containing a washing-machine, a tumble-drier, a refrigerator and a light. 
 9. Sub_metering_3: energy sub-metering No. 3 (in watt-hour of active energy). It corresponds to an electric water-heater and an air-conditioner.
 
-Further details concerning the dataset can be found at the link provided above. Each .R file contains code that downloads 
+Further details concerning the dataset can be found at the link provided above. Each .R file contains code that downloads, cleans, and visualizes different relationships found in the data. Displayed below is the graph that each .R file generates. 
 
-
+## bar.R 
 ![bar](https://user-images.githubusercontent.com/38505196/108241022-66568780-7119-11eb-8a10-1cfa08d4bc08.png)
 
+## ts1.R
 ![ts1](https://user-images.githubusercontent.com/38505196/108241036-69517800-7119-11eb-8551-8da094e6e7bd.png)
 
+## ts2.R
 ![ts2](https://user-images.githubusercontent.com/38505196/108241048-6b1b3b80-7119-11eb-89fd-57cd45eb0b87.png)
+
+## facets.R
 ![facets](https://user-images.githubusercontent.com/38505196/108241055-6ce4ff00-7119-11eb-8474-761db10a3093.png)
