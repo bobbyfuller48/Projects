@@ -1,6 +1,7 @@
 # Air_Pollution_Exploration 
 
-Repository contains .R files that download, read, clean, and explore data from the Environmental Protection Agency [website](http://www.epa.gov/ttn/chief/eiinformation.html) 
+Repository contains .R files that download, read, clean, and explore data from the [Environmental Protection Agency's](https://www.epa.gov/) National Emissions Inventory [database](http://www.epa.gov/ttn/chief/eiinformation.html)
+
 
 ![plot1](https://user-images.githubusercontent.com/38505196/108253426-c3f1d080-7127-11eb-8e8e-ef6e8d278954.png)
 ![plot2](https://user-images.githubusercontent.com/38505196/108253432-c6542a80-7127-11eb-9d5b-ec746528ba16.png)
