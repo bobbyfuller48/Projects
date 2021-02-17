@@ -16,17 +16,26 @@ The other .rds file ('summarySCC_PM25.rds') contains information such as:
 In several of the .R files, the two different dataframes are combined into one table. 
 Below are the questions that each .R file answers along with the graph that was used to answer:
 
-## Total emissions from PM2.5 decreased in the United States from 1999 to 2008 
-### plot1.R
-
-
-
-
-
-
+## Total emissions from PM2.5 decreased in the United States from 1999 to 2008. 
+### plot1.R 
 ![plot1](https://user-images.githubusercontent.com/38505196/108253426-c3f1d080-7127-11eb-8e8e-ef6e8d278954.png)
+
+## Total emissions from PM2.5 decreased in the Baltimore City from 1999 to 2008.
+### plot2.R
 ![plot2](https://user-images.githubusercontent.com/38505196/108253432-c6542a80-7127-11eb-9d5b-ec746528ba16.png)
+
+## In Baltimore, non-road, non-point, and on-road emissions decreased from 1999 to 2008 but point emissions increased.
+### plot3.R
 ![plot3](https://user-images.githubusercontent.com/38505196/108253446-cbb17500-7127-11eb-9cfe-3cf9967135a5.png)
+
+## In the USA, PM2.5 emissions have decreased from 1999 to 2008. 
+### plot4.R
 ![plot4](https://user-images.githubusercontent.com/38505196/108253451-cd7b3880-7127-11eb-90fe-4e404afa0c39.png)
+
+## In Baltimore, PM2.5 emissions from motor vehicles have decreased from 1999 to 2008.
+### plot5.R
 ![plot5](https://user-images.githubusercontent.com/38505196/108253461-d0762900-7127-11eb-85d8-40cedd7ff162.png)
+
+## Baltimore PM2.5 emissions from motor vehicles have decreased from 1999 to 2008, but PM2.5 emissions from motor vehicles in LA has gone up during the same time period.
+### plot5.R
 ![plot6](https://user-images.githubusercontent.com/38505196/108253467-d2d88300-7127-11eb-8a31-52148ffc4c51.png)
