@@ -1,5 +1,5 @@
 # Power_Consumption_Visualization 
-Repository contains .R files that download, read, clean, and explore data from the University of California, [Irvine Machine Learning Repository](http://archive.ics.uci.edu/ml/index.php).
+Repository contains .R files that download, read, clean, and explore data from the University of California, [Irvine Machine Learning Repository](http://archive.ics.uci.edu/ml/index.php). The dataset analyzed is “Individual household electric power consumption Data Set” which can be downloaded by clicking [here](https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2Fhousehold_power_consumption.zip)
 
 
 ![bar](https://user-images.githubusercontent.com/38505196/108241022-66568780-7119-11eb-8a10-1cfa08d4bc08.png)
