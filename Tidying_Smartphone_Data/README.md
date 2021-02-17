@@ -12,5 +12,16 @@ To summarize, 30 participants performed six different activies (walking, walking
 * subject_train.txt (containing the participants, represented by an integer, corresponding to the numeric measurements of the features in x_train.txt)
 * x_train.txt (containing the measurement of each feature recorded for each participant in train_test.txt) 
 * y_train.txt (containing the activity being performed that is measured in x_train.txt)  
-The code reads data from these files, cleans them, and combines them into a single table. From the newly combined table, an additional table is created containing the average of each variable for each activity and each subject.
+
+
+The code reads data from these files, cleans them, and combines them into a single table. The cleaning activities include: 
+* changing the names of the activities to lower case 
+* using regular expressions to change activity labels from this format WALKING_UPSTAIRS, to this format walkingUpstairs 
+* using regular expressions to select only features that measure a mean or standard deviation 
+* removing characters such as '(', ')', and '-' from column names 
+* making column names more descriptive - i.e. changing 'gyro' to 'gyroscope'  
+
+From the newly combined/cleaned table, an additional table is created containing the average of each variable for each activity and each subject. The code writes this table to a .csv file in the users working directory. This table is found in this repository as tidyDataFrame.csv.  
+
+For more information on each feature that was measured, view the features_info.txt downloadable from the University of California, Irvine [database](http://archive.ics.uci.edu/ml/machine-learning-databases/00240/)
 
