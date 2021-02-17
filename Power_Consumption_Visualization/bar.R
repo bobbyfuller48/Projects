@@ -31,7 +31,7 @@ table <- table %>%
 names(table) <- tolower(names(table))
 
 # create/annotate graph
-par(mfrow = c(1,1))
+par(mfrow = c(1,1), mar = c(5, 4, 4, 2))
 
 hist(table$global_active_power, col = 'red', 
      main = 'Global Active Power Usage (2007-02-01 to 2007-02-02)', cex.main = 1, 

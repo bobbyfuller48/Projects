@@ -34,7 +34,7 @@ table <- table %>%
 names(table) <- tolower(names(table))
 
 # create/annotate graph
-par(mfrow = c(1,1))
+par(mfrow = c(1,1), mar = c(3, 4, 2, 2))
 plot(table$date_time, table$sub_metering_1, type = 'l',
      xlab = '', ylab = 'Energy Sub Metering (Wh)', cex.lab = 0.8, 
      cex.axis = 0.8, main = 'Energy Sub Metering Usage (2007-02-01 to 2007-02-02)', 

@@ -34,7 +34,7 @@ table <- table %>%
 names(table) <- tolower(names(table))
 
 # create/annotate graph
-par(mfrow = c(1,1))
+par(mfrow = c(1,1), mar = c(3, 4, 1, 2))
 
 plot(table$date_time, table$global_active_power, type = 'l', 
     xlab = '', ylab = 'Global Active Power (kilowatts)', 
