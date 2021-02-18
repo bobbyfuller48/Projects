@@ -46,8 +46,8 @@ ggplot(motor_table, aes(x = factor(year), y = total_emissions,
                         fill = factor(city))) + 
   geom_bar(stat = 'identity', show.legend = FALSE) + 
   facet_grid(.~city) + 
-  labs(x = 'Year', y = 'Emissions (Tons)', 
-      title = 'Baltimore vs. LA Motor Vehicle PM2.5 Emissions') 
+  labs(x = 'Year', y = 'Emissions (tons)', 
+      title = 'Baltimore vs. LA County Motor Vehicle PM2.5 Emissions') 
 
 # write plot to a PNG file
 dev.copy(png, file = 'plot6.png')

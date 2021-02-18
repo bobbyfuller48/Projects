@@ -28,7 +28,7 @@ ggplot(coal_comb_table, aes(x = factor(year), y = total_emissions/100)) +
   geom_bar(stat = 'identity') + 
   scale_fill_grey(start = 0.75, end = 0.25) +
   labs(title = 'PM2.5 Emissions from Coal Combustion',x = 'Year', 
-       y = 'Emissions (Tons * 100)')
+       y = 'Emissions (tons * 100)')
 
 # write plot to a PNG file
 dev.copy(png, file = 'plot4.png')
