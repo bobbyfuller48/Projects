@@ -18,24 +18,24 @@ Below are the observations that each .R file explicates along with the graph vis
 
 ## Total emissions from PM2.5 decreased in the United States from 1999 to 2008. 
 ### plot1.R 
-![plot1](https://user-images.githubusercontent.com/38505196/108253426-c3f1d080-7127-11eb-8e8e-ef6e8d278954.png)
+![plot1](https://user-images.githubusercontent.com/38505196/108421641-76e32c80-7203-11eb-9a71-d025b7d9ef2d.png) 
 
 ## Total emissions from PM2.5 decreased in Baltimore from 1999 to 2008.
 ### plot2.R
-![plot2](https://user-images.githubusercontent.com/38505196/108253432-c6542a80-7127-11eb-9d5b-ec746528ba16.png)
+![plot2](https://user-images.githubusercontent.com/38505196/108421655-7ba7e080-7203-11eb-88ce-feb65634c644.png)
 
 ## In Baltimore, non-road, non-point, and on-road emissions decreased from 1999 to 2008, but point emissions increased.
 ### plot3.R
-![plot3](https://user-images.githubusercontent.com/38505196/108253446-cbb17500-7127-11eb-9cfe-3cf9967135a5.png)
+![plot3](https://user-images.githubusercontent.com/38505196/108421665-7fd3fe00-7203-11eb-8e91-07335cd64b5e.png)
 
 ## In the USA, PM2.5 emissions from coal combustion have decreased from 1999 to 2008. 
 ### plot4.R
-![plot4](https://user-images.githubusercontent.com/38505196/108253451-cd7b3880-7127-11eb-90fe-4e404afa0c39.png)
+![plot4](https://user-images.githubusercontent.com/38505196/108421675-82365800-7203-11eb-816b-47527359d3c9.png)
 
 ## In Baltimore, PM2.5 emissions from motor vehicles have decreased from 1999 to 2008.
 ### plot5.R
-![plot5](https://user-images.githubusercontent.com/38505196/108258431-fe5e6c00-712d-11eb-8bed-751a11f61d02.png)
+![plot5](https://user-images.githubusercontent.com/38505196/108421685-85314880-7203-11eb-8529-4fb7cf768479.png)
 
 ## PM2.5 emissions from motor vehicles in Baltimore have decreased from 1999 to 2008, but PM2.5 emissions from motor vehicles in LA County have increased during the same time period.
 ### plot6.R
-![plot6](https://user-images.githubusercontent.com/38505196/108253467-d2d88300-7127-11eb-8a31-52148ffc4c51.png)
+![plot6](https://user-images.githubusercontent.com/38505196/108421695-8793a280-7203-11eb-8c88-bfdd96aae617.png) 
